@@ -1,5 +1,60 @@
 @media(max-width:30.2rem){
-    html{
-        font-size: 80%;
+    body{
+        width: 20rem;
+    }
+
+    body{
+        background-image: url(../images/pattern-background-mobile.svg);
+        margin: 0 auto;
+    }
+
+    .hero-image{
+        width: 22rem;
+        height: 9.375rem;
+    }
+
+    .the-rest-content{
+        padding: 1.8rem;
+    }
+
+    h1{
+        font-size: 1.2rem;
+    }
+
+    .main-text{
+        font-size: 0.8rem;
+    }
+
+    .music-component-left{
+        gap: 0.6rem;
+    }
+
+    .music-icon{
+        width: 1.875rem;
+        height: 1.875rem;
+    }
+
+    .annual-plan{
+        font-size: 0.8rem;
+    }
+
+    .price{
+        font-size: 0.6rem;
+    }
+
+    .payment{
+        margin-bottom: 0.6rem;
+    }
+
+    .btn:link,.btn:visited{
+        font-size: 0.6rem;
+    }
+
+    .payment-btn:visited,.payment-btn:link{
+        padding: 0.6rem 4.2rem;
+    }
+
+    .change-link:visited,.change-link:link{
+        font-size: 0.8rem;
     }
 }
